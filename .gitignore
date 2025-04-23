@@ -1,0 +1,34 @@
+# Node modules
+**/node_modules/
+
+# Environment variables - general
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Environment variables - specific locations
+admin-ui/.env
+admin-ui/.env.*
+admin-ui/.env.local*
+server/.env
+server/.env.*
+
+# Build directories
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
